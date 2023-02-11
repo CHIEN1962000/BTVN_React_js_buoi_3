@@ -1,0 +1,57 @@
+.bao {
+    width: 100%;
+    height: 50vh;
+}
+
+.chia {
+    display: flex;
+    justify-content: space-around;
+}
+
+.LeftSide {
+    width: 30%;
+    height: 50vh;
+    background-color: blue;
+}
+
+.RightSide {
+    width: 70%;
+    height: 50vh;
+    background-color: red;
+}
+
+.chia1 {
+    width: 100%;
+    height: 50vh;
+    background-color: aquamarine;
+}
+
+.btn {
+    width: 80px;
+    height: 40px;
+}
+
+/* .div {
+    width: 160px;
+    height: 200px;
+    background-color: blue;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+} */
+.textBlue {
+    width: 160px;
+    height: 200px;
+    background-color: blue;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+  }
+.textRed {
+    width: 160px;
+    height: 200px;
+    background-color: red;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+  }
