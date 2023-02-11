@@ -2,21 +2,23 @@ import './App.css';
 import style from "./styles.module.css";
 import React, {useState} from 'react';
 
-const dk = true;
+
 function App() {
   const [time, setTime] = useState('')
-  const textStyle = (dk == true) ? style.textBlue : style.textRed;
+  const dk = true;
+  // const textStyle = (dk == true) ? style.textBlue : style.textRed;
+  const [textStyle, setTextStyle] = useState('')
 
   const onClick1 = (e) => {
     setTime('night');
-    dk = true;
+    setTextStyle(style.textBlue)
   };
   const onClick2 = (e) => {
     setTime('day');
-    dk = false;
+    setTextStyle(style.textRed)
   };
 
-  console.log("dk= ",dk);
+  console.log("dk= ",setTime);
   return (
     <div>
       <h2>Bài tập về nhà 1</h2>
